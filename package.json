@@ -1,0 +1,11 @@
+{
+  "name": "nqmCsv2Json",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+    "csvtojson": "^1.0.2"
+  }
+}
