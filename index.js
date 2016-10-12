@@ -14,8 +14,6 @@ module.exports = (function() {
 		const outPath = input.outPath;
 		
 		var csvConverter = new Converter();
-		//record_parsed will be emitted each time a row has been parsed.
-		csvConverter.on("record_parsed", function(resultRow) {});
 		
 		const api = context.tdxApi;
 		
