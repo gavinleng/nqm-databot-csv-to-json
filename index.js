@@ -1,16 +1,8 @@
-/*
- * Created by G on 11/10/2016.
- */
-
-
 module.exports = (function() {
 	"use strict";
 	
 	var fs = require("fs");
 	var Converter = require("csvtojson").Converter;
-	
-	//var dataInId = 'rkeGp8r5C';
-	//var outPath = './T201607GPADD.json';
 	
 	function databot(input, output, context) {
 		if (!input.dataInId || !input.outPath) {
