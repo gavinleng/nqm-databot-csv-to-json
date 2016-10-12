@@ -1,6 +1,6 @@
 {
-  "name": "nqmCsv2Json",
-  "version": "0.0.0",
+  "name": "nqm-databot-csv-to-json",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": ""
